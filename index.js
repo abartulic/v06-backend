@@ -48,7 +48,6 @@ app.delete('/api/poruke/:id', (req, res) => {
   const id = Number(req.params.id)
   console.log("Brisem poruku sa ID:", id);
   //poruke = poruke.filter(p => p.id !== id)
-  web: npm start
   res.status(204).end()
 })
 
